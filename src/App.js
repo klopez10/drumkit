@@ -2,14 +2,14 @@ import React from 'react';
 import './App.css';
 
 const data = [
-  { id: 'I Approve Message', letter: 'A', src: 'https://github.com/klopez10/drumkit/blob/master/src/assets/sounds/Gina_ApproveMessage.mp3?raw=true' },
-  { id: 'Assistant Manager', letter: 'S', src: 'https://github.com/klopez10/drumkit/blob/master/src/assets/sounds/Gina_AssistantManager.mp3?raw=true' },
-  { id: 'No Doubt No Doubt No Doubt', letter: 'D', src: 'https://github.com/klopez10/drumkit/blob/master/src/assets/sounds/DoubtDoubtDoubt.mp3?raw=true' },
-	{ id: 'Market', letter: 'F', src: 'https://github.com/klopez10/drumkit/blob/master/src/assets/sounds/Terry_FarmersMarket.mp3?raw=true' },
-  { id: 'Bingpot', letter: 'G', src: 'https://github.com/klopez10/drumkit/blob/master/src/assets/sounds/Jake_Bingpot.mp3?raw=true' },
-  { id: 'How to Breathe', letter: 'H', src: 'https://github.com/klopez10/drumkit/blob/master/src/assets/sounds/Terry_HowToBreathe.mov?raw=true' },
+  { id: 'I approve this message.', letter: 'A', src: 'https://github.com/klopez10/drumkit/blob/master/src/assets/sounds/Gina_ApproveMessage.mp3?raw=true' },
+  { id: 'Assistant manager where?', letter: 'S', src: 'https://github.com/klopez10/drumkit/blob/master/src/assets/sounds/Gina_AssistantManager.mp3?raw=true' },
+  { id: 'No doubt. No doubt. No doubt.', letter: 'D', src: 'https://github.com/klopez10/drumkit/blob/master/src/assets/sounds/DoubtDoubtDoubt.mp3?raw=true' },
+	{ id: 'I look like an idiot.', letter: 'F', src: 'https://github.com/klopez10/drumkit/blob/master/src/assets/sounds/Jake_LotionForearms.mp3?raw=true' },
+  { id: 'BINGPOT!', letter: 'G', src: 'https://github.com/klopez10/drumkit/blob/master/src/assets/sounds/Jake_Bingpot.mp3?raw=true' },
+  { id: 'I forgot how to breathe!', letter: 'H', src: 'https://github.com/klopez10/drumkit/blob/master/src/assets/sounds/Terry_HowToBreathe.mov?raw=true' },
 	{ id: 'Naughty!', letter: 'J', src: 'https://github.com/klopez10/drumkit/blob/master/src/assets/sounds/Jake_Naughty.mp3?raw=true' },
-  { id: 'Ok', letter: 'K', src: 'https://github.com/klopez10/drumkit/blob/master/src/assets/sounds/OkOkOk.mp3?raw=true' }
+  { id: 'Already in your headdddddd...', letter: 'K', src: 'https://github.com/klopez10/drumkit/blob/master/src/assets/sounds/Terry_InYourHead.mov?raw=true' }
 ]
 
 class DrumPad extends React.Component {
