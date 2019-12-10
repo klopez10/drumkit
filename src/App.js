@@ -2,14 +2,14 @@ import React from 'react';
 import './App.css';
 
 const data = [
-  { id: 'Approve Message', letter: 'A', src: 'https://github.com/klopez10/drumkit/blob/master/src/assets/sounds/Gina_ApproveMessage.mov' },
-  { id: 'Assistant Manager', letter: 'S', src: 'https://github.com/klopez10/drumkit/blob/master/src/assets/sounds/Gina_AssistantManager.mov' },
-  { id: 'Doubt', letter: 'D', src: 'https://github.com/klopez10/drumkit/blob/master/src/assets/sounds/DoubtDoubtDoubt.mov' },
-	{ id: 'Farmer Market', letter: 'F', src: 'https://github.com/klopez10/drumkit/blob/master/src/assets/sounds/Terry_FarmersMarket.mov' },
-  { id: 'Bingpot', letter: 'G', src: 'https://github.com/klopez10/drumkit/blob/master/src/assets/sounds/Jake_Bingpot.mov' },
-  { id: 'How to Breathe', letter: 'H', src: 'https://github.com/klopez10/drumkit/blob/master/src/assets/sounds/Terry_HowToBreathe.mov' },
-	{ id: 'Naughty', letter: 'J', src: 'https://github.com/klopez10/drumkit/blob/master/src/assets/sounds/Jake_Naughty.mov' },
-  { id: 'Ok', letter: 'K', src: 'https://github.com/klopez10/drumkit/blob/master/src/assets/sounds/OkOkOk.mov' }
+  { id: 'Approve Message', letter: 'A', src: 'https://github.com/klopez10/drumkit/blob/master/src/assets/sounds/Gina_ApproveMessage.mp3' },
+  { id: 'Assistant Manager', letter: 'S', src: 'https://github.com/klopez10/drumkit/blob/master/src/assets/sounds/Gina_AssistantManager.mp3' },
+  { id: 'Doubt', letter: 'D', src: 'https://github.com/klopez10/drumkit/blob/master/src/assets/sounds/DoubtDoubtDoubt.mp3' },
+	{ id: 'Farmer Market', letter: 'F', src: 'https://github.com/klopez10/drumkit/blob/master/src/assets/sounds/Terry_FarmersMarket.mp3' },
+  { id: 'Bingpot', letter: 'G', src: 'https://github.com/klopez10/drumkit/blob/master/src/assets/sounds/Jake_Bingpot.mp3' },
+  { id: '100', letter: 'H', src: 'https://github.com/klopez10/drumkit/blob/master/src/assets/sounds/Gina_100Emoji.mp3' },
+	{ id: 'Naughty', letter: 'J', src: 'https://github.com/klopez10/drumkit/blob/master/src/assets/sounds/Jake_Naughty.mp3' },
+  { id: 'Ok', letter: 'K', src: 'https://github.com/klopez10/drumkit/blob/master/src/assets/sounds/OkOkOk.mp3' }
 ]
 
 class DrumPad extends React.Component {
