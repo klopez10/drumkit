@@ -1,38 +1,32 @@
-.App {
+body {
+  background-image: url('assets/Brooklyn99_1600x900.jpg');
+  background-size: cover;
+  background-position: 0px -105px;
+
+  color: #fff;
+
+  text-shadow: 0 0 0.5em #161718;
+}
+
+#drum-machine {
+  background: #161718;
+
+  margin-top: 500px;
+  padding: 40px;
+
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+#drum-pads, #drum-pads div {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-wrap: wrap;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
 }
 
-.App-link {
-  color: #61dafb;
-}
+#drum-pads div {	
+  width: 8%;
+  margin-right: 50px;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  outline: yellow 3px solid;
 }
