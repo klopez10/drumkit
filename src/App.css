@@ -17,6 +17,10 @@ body {
   text-align: center;
 }
 
+#drum-machine #display {
+	margin-bottom: 20px;
+}
+
 #drum-pads, #drum-pads div {
   display: flex;
   flex-wrap: wrap;
