@@ -2,14 +2,14 @@ import React from 'react';
 import './App.css';
 
 const data = [
-  { id: 'Approve Message', letter: 'A', src: 'https://drive.google.com/open?id=1zJqphM4QuKjXWYOrpItzNFn0MOeCUTns' },
-  { id: 'Assistant Manager', letter: 'S', src: 'http://billor.chsh.chc.edu.tw/sound/bass4.wav' },
-  { id: 'Doubt', letter: 'D', src: 'http://www.denhaku.com/r_box/tr707/closed.wav' },
-	{ id: 'Farmer Market', letter: 'F', src: 'http://www.denhaku.com/r_box/sr16/sr16tom/loelectm.wav' },
-  { id: 'Bass', letter: 'G', src: 'http://billor.chsh.chc.edu.tw/sound/bass4.wav' },
-  { id: 'How to Breathe', letter: 'H', src: 'http://www.denhaku.com/r_box/tr707/closed.wav' },
-	{ id: 'Naughty', letter: 'J', src: 'http://www.denhaku.com/r_box/sr16/sr16tom/loelectm.wav' },
-  { id: 'Ok', letter: 'K', src: 'http://billor.chsh.chc.edu.tw/sound/bass4.wav' }
+  { id: 'Approve Message', letter: 'A', src: 'https://github.com/klopez10/drumkit/blob/master/src/assets/sounds/Gina_ApproveMessage.mov' },
+  { id: 'Assistant Manager', letter: 'S', src: 'https://github.com/klopez10/drumkit/blob/master/src/assets/sounds/Gina_AssistantManager.mov' },
+  { id: 'Doubt', letter: 'D', src: 'https://github.com/klopez10/drumkit/blob/master/src/assets/sounds/DoubtDoubtDoubt.mov' },
+	{ id: 'Farmer Market', letter: 'F', src: 'https://github.com/klopez10/drumkit/blob/master/src/assets/sounds/Terry_FarmersMarket.mov' },
+  { id: 'Bingpot', letter: 'G', src: 'https://github.com/klopez10/drumkit/blob/master/src/assets/sounds/Jake_Bingpot.mov' },
+  { id: 'How to Breathe', letter: 'H', src: 'https://github.com/klopez10/drumkit/blob/master/src/assets/sounds/Terry_HowToBreathe.mov' },
+	{ id: 'Naughty', letter: 'J', src: 'https://github.com/klopez10/drumkit/blob/master/src/assets/sounds/Jake_Naughty.mov' },
+  { id: 'Ok', letter: 'K', src: 'https://github.com/klopez10/drumkit/blob/master/src/assets/sounds/OkOkOk.mov' }
 ]
 
 class DrumPad extends React.Component {
